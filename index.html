@@ -1,78 +1,90 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
+
 <head>
-	<title>Love You</title>
-	<meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张佳琪.我爱你</title>
+	<audio id="audio" src="./asset/audio/bgm.mp3"  preload="auto" controls loop hidden="true"/>  
+		Your browser does not support the audio element.
+	</audio>
+	<script>
+		var myAuto = document.getElementById('audio');  
+                    myAuto.play();  
+	</script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #ffb3d1;
+        }
+
+        .box {
+            width: 120px;
+            height: 120px;
+            background: #D01760;
+            margin: 200px auto;
+            margin-bottom: 80px;
+            /* 盒子旋转45度 */
+            transform: rotate(45deg) scale(0.9);
+            /* 绑定动画 */
+            animation: change 1s infinite;
+            box-shadow: 0 0 30px 5px rgba(255, 85, 157, 0.7);
+        }
+
+        .box::after,
+        .box::before {
+            content: "";
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background: #D01760;
+            border-radius: 50%;
+            box-shadow: 0 0 30px 5px rgba(255, 85, 157, 0.7);
+        }
+
+        .box::after {
+            left: -68px;
+        }
+
+        .box::before {
+            top: -68px;
+        }
+
+        /* 创建动画 */
+        @keyframes change {
+            0% {
+                transform: rotate(45deg) scale(0.85);
+            }
+
+            50% {
+                transform: rotate(45deg) scale(1);
+            }
+
+            100% {
+                transform: rotate(45deg) scale(0.85);
+            }
+        }
+
+        p {
+			font-family: "Noto Sans SC";
+            text-align: center;
+            font-size: 30px;
+            font-weight: 120;
+            color: #D01760;
+            /* 文字阴影 */
+            text-shadow: 0 0 90px rgba(255, 137, 187, 0.5);
+        }
+    </style>
 </head>
 
 <body>
-
-<div class="wrapper">
-	<div class="container">
-		<div class="main">
-			<section id="testimonials">
-				<div class="text-container">
-					<div class="row">
-						<div class="two columns header-col">
-							<h1><span>Quotes</span></h1>
-						</div>
-						<div class="ten columns flex-container">
-							<div class="flexslider">
-								<ul class="slides">
-									<li>
-										<blockquote>
-											<p>
-												“In your light I learn how to love. In your beauty, how to make poems. You dance inside my chest where no-one sees you, but sometimes I do, and that sight becomes this art.”
-											</p>
-											<cite>Rumi</cite>
-										</blockquote>
-									</li>
-									<li>
-										<blockquote>
-											<p>
-												“He stepped down, trying not to look long at her, as if she were the sun, yet he saw her, like the sun, even without looking.”
-											</p>
-											<cite>Leo Tolstoy, Anna Karenina</cite>
-										</blockquote>
-									</li>
-									<li>
-										<blockquote>
-											<p>
-												“I have waited for this opportunity for more than half a century, to repeat to you once again my vow of eternal fidelity and everlasting love.”
-											</p>
-											<cite>Gabriel García Márquez, Love In The Time Of Cholera</cite>
-										</blockquote>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-		<ul class="bg-bubbles">
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-			<li><div class="heart pulse2">♥</div></li>
-		</ul>
-	</div>
-</div>
-
-<audio controls autoplay style="display:none;">
-	<source src="asset/audio/David%20Neyrolles%20-%2050%20Boulevard%20Voltaire.mp3" type="audio/mpeg">
-	Your browser does not support the audio element.
-</audio>
-<script>window.jQuery || document.write('<script src="asset/js/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="asset/js/jquery.flexslider.js"></script>
-<script src="asset/js/init.js"></script>
+    <div class="box"></div>
+    <p>Jacky 我爱你~<br>迎面总来的你让我如此蠢蠢欲动<br>这种感觉我从未有<br>Cause I GOT A CRUSH ON YOU!<br>虎妞<br>你是我的，我是，你的谁？<br>请你接受我的告白与我交往！</p>
 </body>
+
 </html>
