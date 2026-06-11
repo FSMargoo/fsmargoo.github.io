@@ -5,7 +5,7 @@
     <link>/index.html</link>
     <description>A static blog generator that makes every post look like a published paper.</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 11:56:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 11:58:13 +0000</lastBuildDate>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -24,8 +24,9 @@
 D(\omega)\text{d}\omega=D_o\left(\omega_o\right)\text{d}\omega
 \end{equation}\]&lt;/div&gt;
 &lt;p&gt;Prove that&lt;/p&gt;
-&lt;div class=&#34;arithmatex&#34;&gt;\[
-D(\omega)=D_o\left(\frac{M^-1 \omega}{\left|\left|M^{-1}\omega\right|\right|}\right)\frac{\left|\det{\left(M^{-1}\right)}\right|}{\left|\left|M^{-1}\omega\right|\right|^3}\]&lt;/div&gt;
+&lt;div class=&#34;arithmatex&#34;&gt;\[\begin{equation}
+D(\omega)=D_o\left(\frac{M^-1 \omega}{\left|\left|M^{-1}\omega\right|\right|}\right)\frac{\left|\det{\left(M^{-1}\right)}\right|}{\left|\left|M^{-1}\omega\right|\right|^3}
+\end{equation}\]&lt;/div&gt;
 &lt;p&gt;Here &lt;span class=&#34;arithmatex&#34;&gt;\(\text{d}\omega\)&lt;/span&gt; and &lt;span class=&#34;arithmatex&#34;&gt;\(\text{d}\omega_o\)&lt;/span&gt; denotes infinitesimal solid angle elements on &lt;span class=&#34;arithmatex&#34;&gt;\(S^2\)&lt;/span&gt;.&lt;/p&gt;
 &lt;figure id=&#34;fig:transform&#34; class=&#34;numbered-fig&#34;&gt;
   &lt;img src=&#34;assets/images/welcome-math-question/transform.png&#34; alt=&#34;The transform of the matrix \(M\)&#34;&gt;
