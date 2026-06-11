@@ -24,10 +24,10 @@
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="M. Argoo Research Blog" href="feed.xml">
 
-  <!-- Fonts: Playfair Display + Crimson Text + IBM Plex Mono -->
+  <!-- Fonts: Libre Baskerville (body) + Inter (UI) + JetBrains Mono (code/meta) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   
 </head>
@@ -46,16 +46,12 @@
     </div>
   </div>
 
-  <!-- Masthead -->
-  <header class="site-masthead">
-    <a href="index.html" class="masthead-journal-name">M. Argoo Research Blog</a>
-    <div class="masthead-subtitle">A living archive of research on human-computer interaction.</div>
-    <div class="masthead-meta">Vol. I No. 1 &middot; Established 2024</div>
-  </header>
-
-  <!-- Navigation -->
+  <!-- Top Navigation Bar -->
   <nav class="site-nav">
     <div class="nav-inner">
+      <div class="nav-brand">
+        <a href="index.html">M. Argoo Research Blog</a>
+      </div>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="archive.html">Papers</a></li>
@@ -76,12 +72,22 @@
   <!-- Sidebar -->
   <aside class="sidebar">
 
+    <div class="sidebar-brand">
+      <h1>M. Argoo Research Blog</h1>
+      <span class="tagline">A living archive of research on human-computer interaction.</span>
+    </div>
+
     <div>
-      <p class="sidebar-section-title">Sections</p>
+      <p class="sidebar-section-title">Collections</p>
       <ul class="sidebar-list">
         <li>
           <a href="archive.html">All Papers</a>
-          <span class="sidebar-count">0</span>
+          <span class="sidebar-count">1</span>
+        </li>
+        
+        <li>
+          <a href="categories/math.html">Math</a>
+          <span class="sidebar-count">1</span>
         </li>
         
       </ul>
@@ -91,6 +97,26 @@
       <p class="sidebar-section-title">Topics</p>
       <ul class="sidebar-list">
         
+        <li>
+          <a href="tags/图形学.html">图形学</a>
+          <span class="sidebar-count">1</span>
+        </li>
+        
+        <li>
+          <a href="tags/数学.html">数学</a>
+          <span class="sidebar-count">1</span>
+        </li>
+        
+        <li>
+          <a href="tags/概率论.html">概率论</a>
+          <span class="sidebar-count">1</span>
+        </li>
+        
+        <li>
+          <a href="tags/线性代数.html">线性代数</a>
+          <span class="sidebar-count">1</span>
+        </li>
+        
       </ul>
       <a href="tags/all.html" class="sidebar-footer-link">All topics &rarr;</a>
     </div>
@@ -98,6 +124,11 @@
     <div>
       <p class="sidebar-section-title">Archive</p>
       <ul class="sidebar-list">
+        
+        <li>
+          <span style="font-size:0.78rem;color:var(--muted);">2026</span>
+          <span class="sidebar-count">1</span>
+        </li>
         
       </ul>
     </div>
@@ -110,11 +141,54 @@
       </a>
     </div>
 
+    <div class="sidebar-info">
+      <div>EST. 2026 &bull; BEIJING</div>
+      <div>&copy; M. Argoo</div>
+    </div>
+
   </aside>
 
   <!-- Main Content -->
-  <main>
+  <main class="main-content">
 
+    <header class="top-masthead">
+      <div>Vol. I No. 1 &middot; Established 2026</div>
+      <div class="search-trigger" id="searchTrigger2">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        SEARCH
+      </div>
+    </header>
+
+    
+    
+    <article class="featured-article">
+      <span class="featured-label">Featured Paper</span>
+      <h2 class="featured-title">
+        <a href="posts/高考终于结束了送给大家一道线性代数题暖暖场.html">高考终于结束了，送给大家一道线性代数题暖暖场</a>
+      </h2>
+      <div class="featured-authors">
+        
+        <span>Margoo</span>
+        
+        &middot;
+        June 2026
+      </div>
+      
+      <div class="featured-abstract">
+        随着 2026 年高考生物结束铃的打响，我结束了三年的高中生活。终于高考结束了，这个暑假有时间回来研究图形学了。大的文章还在施工，作为回归礼，先送给各位一道线性代数题。本题的背景是下篇文章要解析的论文。
+      </div>
+      
+      
+      <div class="featured-keywords">
+        <strong>Keywords:</strong>
+        线性代数, Math, Computer Graphics, 数学题
+      </div>
+      
+      <div class="featured-meta-bottom">
+        <span>2026-06-11</span>
+        <a href="posts/高考终于结束了送给大家一道线性代数题暖暖场.html" class="btn-read">Read Paper &rarr;</a>
+      </div>
+    </article>
     
 
     <!-- Recent Papers -->
@@ -125,11 +199,53 @@
 
     <div class="article-list">
       
+      
+      <article class="article-item">
+        <div class="article-item-date">2026 / 06 / 11</div>
+        <div class="article-item-body">
+          <div class="article-item-category">Math</div>
+          <h3 class="article-item-title">
+            <a href="posts/高考终于结束了送给大家一道线性代数题暖暖场.html">高考终于结束了，送给大家一道线性代数题暖暖场</a>
+          </h3>
+          
+          <div class="article-item-authors">
+            Margoo
+          </div>
+          
+          
+          <p class="article-item-abstract">随着 2026 年高考生物结束铃的打响，我结束了三年的高中生活。终于高考结束了，这个暑假有时间回来研究图形学了。大的文章还在施工，作为回归礼，先送给各位一道线性代数题。本题的背景是下篇文章要解析的论文。</p>
+          
+          <div class="article-item-meta">
+            
+            <span class="article-item-tags">
+              
+              <a class="tag-link" href="tags/图形学.html">图形学</a>
+              
+              <a class="tag-link" href="tags/线性代数.html">线性代数</a>
+              
+              <a class="tag-link" href="tags/数学.html">数学</a>
+              
+              <a class="tag-link" href="tags/概率论.html">概率论</a>
+              
+            </span>
+            
+          </div>
+        </div>
+      </article>
+      
+      
     </div>
 
   </main>
 
 </div>
+
+<script>
+  // Duplicate search trigger in masthead
+  document.getElementById('searchTrigger2').addEventListener('click', function() {
+    document.getElementById('searchTrigger').click();
+  });
+</script>
 
 
 
@@ -150,27 +266,18 @@
           </ul>
         </div>
         <div>
-          <p class="footer-col-title">Resources</p>
-          <ul class="footer-col-links">
-            <li><a href="#">BibTeX Library</a></li>
-            <li><a href="#">Style Guide</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </div>
-        <div>
           <p class="footer-col-title">Connect</p>
           <ul class="footer-col-links">
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Email</a></li>
+            <li><a href="https://github.com/FSMargoo">GitHub</a></li>
+            <li><a href="mailto:qiuzhengyu@siggraph.org">Email</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <p class="footer-bottom">&copy; M. Argoo &mdash; M. Argoo Research Blog &middot; All papers are &copy; the author. ISSN XXXX-XXXX.</p>
+    <p class="footer-bottom">&copy; M. Argoo &mdash; M. Argoo Research Blog</p>
   </footer>
 
-  <script id="search-data" type="application/json">[]</script>
+  <script id="search-data" type="application/json">[{"title": "高考终于结束了，送给大家一道线性代数题暖暖场", "url": "posts/高考终于结束了送给大家一道线性代数题暖暖场.html", "slug": "高考终于结束了送给大家一道线性代数题暖暖场", "authors": ["Margoo"], "abstract": "随着 2026 年高考生物结束铃的打响，我结束了三年的高中生活。终于高考结束了，这个暑假有时间回来研究图形学了。大的文章还在施工，作为回归礼，先送给各位一道线性代数题。本题的背景是下篇文章要解析的论文。", "category": "Math", "tags": ["图形学", "线性代数", "数学", "概率论"], "date": "2026-06-11", "content": "Problem &para; Let \\(S^2=\\{\\omega\\in\\mathbb{R}^3:\\|\\omega\\|=1\\}\\) be the unit sphere equipped with its standard solid angle measure \\(\\text{d}\\omega\\) . Let \\(D_o:S^2\\to\\mathbb{R}\\) be a density function on the sphere, and let \\(M\\in\\mathbb{R}^{3\\times 3}\\) be an invertible matrix. Define a mapping \\(T:S^2\\to S^2\\) by \\[\\begin{equation} T\\left(\\omega\\right)=\\omega_o=\\frac{M^{-1}\\omega}{\\left|\\left|M^-1\\omega\\right|\\right|} \\end{equation}\\] Suppose a transformed spherical density \\(D:S^2\\to\\mathbb{R}\\) is defined by preserving density with respect to solid angle, namely \\[\\begin{equation} D(\\omega)\\text{d}\\omega=D_o\\left(\\omega_o\\right)\\text{d}\\omega \\end{equation}\\] Prove that \\[ D(\\omega)=D_o\\left(\\frac{M^-1 \\omega}{\\left|\\left|M^{-1}\\omega\\right|\\right|}\\right)\\frac{\\left|\\det{\\left(M^{-1}\\right)}\\right|}{\\left|\\left|M^{-1}\\omega\\right|\\right|^3}\\] Here \\(\\text{d}\\omega\\) and \\(\\text{d}\\omega_o\\) denotes infinitesimal solid angle elements on \\(S^2\\) . 图 1：The transform of the matrix \\(M\\)"}]</script>
   <script>
     (function() {
       var overlay = document.getElementById('searchOverlay');
@@ -204,7 +311,6 @@
             return;
           } catch(e) {}
         }
-        // Fallback: try XHR for server-hosted sites
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'search.json', true);
         xhr.onreadystatechange = function() {

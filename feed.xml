@@ -5,8 +5,42 @@
     <link>/index.html</link>
     <description>A static blog generator that makes every post look like a published paper.</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 06:39:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 11:54:10 +0000</lastBuildDate>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>高考终于结束了，送给大家一道线性代数题暖暖场</title>
+      <link>/posts/高考终于结束了送给大家一道线性代数题暖暖场.html</link>
+      <guid>/posts/高考终于结束了送给大家一道线性代数题暖暖场.html</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;a class=&#34;headerlink&#34; href=&#34;#problem&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Let &lt;span class=&#34;arithmatex&#34;&gt;\(S^2=\{\omega\in\mathbb{R}^3:\|\omega\|=1\}\)&lt;/span&gt; be the unit sphere equipped with its standard solid angle measure &lt;span class=&#34;arithmatex&#34;&gt;\(\text{d}\omega\)&lt;/span&gt;. Let &lt;span class=&#34;arithmatex&#34;&gt;\(D_o:S^2\to\mathbb{R}\)&lt;/span&gt; be a density function on the sphere, and let &lt;span class=&#34;arithmatex&#34;&gt;\(M\in\mathbb{R}^{3\times 3}\)&lt;/span&gt; be an invertible matrix.&lt;/p&gt;
+&lt;p&gt;Define a mapping &lt;span class=&#34;arithmatex&#34;&gt;\(T:S^2\to S^2\)&lt;/span&gt; by&lt;/p&gt;
+&lt;div class=&#34;arithmatex&#34;&gt;\[\begin{equation}
+    T\left(\omega\right)=\omega_o=\frac{M^{-1}\omega}{\left|\left|M^-1\omega\right|\right|}
+\end{equation}\]&lt;/div&gt;
+&lt;p&gt;Suppose a transformed spherical density &lt;span class=&#34;arithmatex&#34;&gt;\(D:S^2\to\mathbb{R}\)&lt;/span&gt; is defined by preserving density with respect to solid angle, namely&lt;/p&gt;
+&lt;div class=&#34;arithmatex&#34;&gt;\[\begin{equation}
+D(\omega)\text{d}\omega=D_o\left(\omega_o\right)\text{d}\omega
+\end{equation}\]&lt;/div&gt;
+&lt;p&gt;Prove that&lt;/p&gt;
+&lt;div class=&#34;arithmatex&#34;&gt;\[
+D(\omega)=D_o\left(\frac{M^-1 \omega}{\left|\left|M^{-1}\omega\right|\right|}\right)\frac{\left|\det{\left(M^{-1}\right)}\right|}{\left|\left|M^{-1}\omega\right|\right|^3}\]&lt;/div&gt;
+&lt;p&gt;Here &lt;span class=&#34;arithmatex&#34;&gt;\(\text{d}\omega\)&lt;/span&gt; and &lt;span class=&#34;arithmatex&#34;&gt;\(\text{d}\omega_o\)&lt;/span&gt; denotes infinitesimal solid angle elements on &lt;span class=&#34;arithmatex&#34;&gt;\(S^2\)&lt;/span&gt;.&lt;/p&gt;
+&lt;figure id=&#34;fig:transform&#34; class=&#34;numbered-fig&#34;&gt;
+  &lt;img src=&#34;assets/images/welcome-math-question/transform.png&#34; alt=&#34;The transform of the matrix \(M\)&#34;&gt;
+  &lt;figcaption&gt;图 1：The transform of the matrix \(M\)&lt;/figcaption&gt;
+&lt;/figure&gt;]]></description>
+      
+      <category>图形学</category>
+      
+      <category>线性代数</category>
+      
+      <category>数学</category>
+      
+      <category>概率论</category>
+      
+    </item>
     
   </channel>
 </rss>
