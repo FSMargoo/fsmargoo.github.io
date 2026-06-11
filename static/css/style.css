@@ -17,7 +17,7 @@
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'IBM Plex Mono', 'Courier New', monospace;
   --sidebar-w: 260px;
-  --content-w: 820px;
+  --content-w: 1230px;
 }
 
 /* ---- Reset ---- */
@@ -764,14 +764,14 @@ hr {
 /* Floating TOC for wide screens */
 .toc-aside {
   position: fixed;
-  left: calc(50% + 440px);
+  left: calc(50% + 640px);
   top: 120px;
   width: 190px;
   font-family: var(--font-sans);
   font-size: 0.72rem;
   display: none;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1800px) {
   .toc-aside { display: block; }
 }
 .toc-aside h4 {
