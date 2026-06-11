@@ -5,13 +5,13 @@
     <link>/index.html</link>
     <description>A static blog generator that makes every post look like a published paper.</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 11:58:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 12:04:49 +0000</lastBuildDate>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>高考终于结束了，送给大家一道线性代数题暖暖场</title>
-      <link>/posts/高考终于结束了送给大家一道线性代数题暖暖场.html</link>
-      <guid>/posts/高考终于结束了送给大家一道线性代数题暖暖场.html</guid>
+      <link>/posts/546c8d07.html</link>
+      <guid>/posts/546c8d07.html</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;a class=&#34;headerlink&#34; href=&#34;#problem&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Let &lt;span class=&#34;arithmatex&#34;&gt;\(S^2=\{\omega\in\mathbb{R}^3:\|\omega\|=1\}\)&lt;/span&gt; be the unit sphere equipped with its standard solid angle measure &lt;span class=&#34;arithmatex&#34;&gt;\(\text{d}\omega\)&lt;/span&gt;. Let &lt;span class=&#34;arithmatex&#34;&gt;\(D_o:S^2\to\mathbb{R}\)&lt;/span&gt; be a density function on the sphere, and let &lt;span class=&#34;arithmatex&#34;&gt;\(M\in\mathbb{R}^{3\times 3}\)&lt;/span&gt; be an invertible matrix.&lt;/p&gt;
