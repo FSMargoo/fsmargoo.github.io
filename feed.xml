@@ -5,7 +5,7 @@
     <link>/index.html</link>
     <description>A static blog generator that makes every post look like a published paper.</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 12:41:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 02:54:35 +0000</lastBuildDate>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +18,7 @@
 &lt;p&gt;Define a mapping &lt;span class=&#34;arithmatex&#34;&gt;\(T:S^2\to S^2\)&lt;/span&gt; by&lt;/p&gt;
 &lt;div class=&#34;arithmatex&#34;&gt;\[
 \begin{equation}\tag{1}
-T\left(\omega\right)=\omega_o=\frac{M^{-1}\omega}{\left|\left|M^-1\omega\right|\right|}
+T\left(\omega\right)=\omega_o=\frac{M^{-1}\omega}{\left|\left|M^{-1}\omega\right|\right|}
 \end{equation}
 \]&lt;/div&gt;
 &lt;p&gt;Suppose a transformed spherical density &lt;span class=&#34;arithmatex&#34;&gt;\(D:S^2\to\mathbb{R}\)&lt;/span&gt; is defined by preserving density with respect to solid angle, namely&lt;/p&gt;
@@ -30,7 +30,7 @@ D(\omega)\text{d}\omega=D_o\left(\omega_o\right)\text{d}\omega
 &lt;p&gt;Prove that&lt;/p&gt;
 &lt;div class=&#34;arithmatex&#34;&gt;\[
 \begin{equation}\tag{3}
-D(\omega)=D_o\left(\frac{M^-1 \omega}{\left|\left|M^{-1}\omega\right|\right|}\right)\frac{\left|\det{\left(M^{-1}\right)}\right|}{\left|\left|M^{-1}\omega\right|\right|^3}
+D(\omega)=D_o\left(\frac{M^{-1} \omega}{\left|\left|M^{-1}\omega\right|\right|}\right)\frac{\left|\det{\left(M^{-1}\right)}\right|}{\left|\left|M^{-1}\omega\right|\right|^3}
 \end{equation}
 \]&lt;/div&gt;
 &lt;p&gt;Here &lt;span class=&#34;arithmatex&#34;&gt;\(\text{d}\omega\)&lt;/span&gt; and &lt;span class=&#34;arithmatex&#34;&gt;\(\text{d}\omega_o\)&lt;/span&gt; denotes infinitesimal solid angle elements on &lt;span class=&#34;arithmatex&#34;&gt;\(S^2\)&lt;/span&gt;.&lt;/p&gt;
